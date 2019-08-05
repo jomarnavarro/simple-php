@@ -1,6 +1,6 @@
-#Simple PHP
+# Simple PHP
 
-##Introduccion
+## Introduccion
 
 Este es un proyecto hola mundo simple en docker que muestra como construir, correr y borrar imagenes.  Incluye los siguientes archivos:
 
@@ -9,15 +9,15 @@ Este es un proyecto hola mundo simple en docker que muestra como construir, corr
 
 La imagen se construye a partir de una imagen de php y apache.  
 
-##Construir la imagen
+## Construir la imagen
 
 ```docker build -t hola-mundo .```
 
-##Correr el contenedor
+## Correr el contenedor
 
 ```docker run --name=hola-mundo -p8088:80 hola-mundo```
 
-##Borrar el contenedor
+## Borrar el contenedor
 
 Primero listar los contenedores que estan corriendo:
 
@@ -27,7 +27,7 @@ Obtener el id del contenedor y correr
 
 ```docker rm -f <id-contenedor>```
 
-##Borrar la imagen
+## Borrar la imagen
 
 Primero listar las imagenes con el comando:
 
@@ -36,9 +36,3 @@ Primero listar las imagenes con el comando:
 Obtener el id de la imagen, y correr
 
 ```docker rmi -f <id-imagen>```
-
-
-
-
-
-
