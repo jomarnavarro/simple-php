@@ -36,3 +36,7 @@ Primero listar las imagenes con el comando:
 Obtener el id de la imagen, y correr
 
 ```docker rmi -f <id-imagen>```
+
+## Detener la ejecucion de la imagen
+
+Este es el texto agregado por Omar Navarro
